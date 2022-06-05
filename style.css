@@ -73,9 +73,10 @@ span.wave {
 }
 
 .first-image{
-    position: relative;
+    position:relative;
     right: 0;
-    left: 300px;
+    left: 250px;
+    /* align-items:flex-start; */
 }
 .boyimage{
   height: 400px;
