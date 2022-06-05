@@ -73,16 +73,17 @@ span.wave {
 }
 
 .first-image{
-    position: absolute;
-    right:0;
+    position: relative;
+    right: 0;
+    left: 300px;
 }
 .boyimage{
   height: 400px;
 }
 
-@media only screen and (max-width : 1183px){
+@media only screen and (max-width : 1170px){
   .first-image{
-    right:160px;
+    right:150px;
   }
 
 }
@@ -108,17 +109,17 @@ span.wave {
   align-items: center;
 }
 
-@media only screen and (min-width:951px){
+@media only screen and (min-width:900px){
   .Image-boy{
     display:none;
   }
 }
   .Hello{
-      margin-bottom: 20px;
+      margin-bottom: 30px;
   }
   p{
       line-height: 2;
-      color: #868e96;
+      color: #151151;
   }
 
 
