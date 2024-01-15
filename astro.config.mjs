@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://kananvyas.github.io/',
-  base: '/my-repo',
+  base: '',
   integrations: [mdx(), sitemap(), tailwind()]
 });
