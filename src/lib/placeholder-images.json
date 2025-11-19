@@ -1,0 +1,10 @@
+{
+  "placeholderImages": [
+    {
+      "id": "avatar",
+      "description": "Avatar of Kanan Vyas",
+      "imageUrl": "/profile.jpeg",
+      "imageHint": "profile avatar"
+    }
+  ]
+}
