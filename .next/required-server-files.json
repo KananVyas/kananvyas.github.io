@@ -58,33 +58,8 @@
       "dangerouslyAllowSVG": false,
       "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
       "contentDispositionType": "attachment",
-      "remotePatterns": [
-        {
-          "protocol": "https",
-          "hostname": "placehold.co",
-          "port": "",
-          "pathname": "/**"
-        },
-        {
-          "protocol": "https",
-          "hostname": "images.unsplash.com",
-          "port": "",
-          "pathname": "/**"
-        },
-        {
-          "protocol": "https",
-          "hostname": "picsum.photos",
-          "port": "",
-          "pathname": "/**"
-        },
-        {
-          "protocol": "https",
-          "hostname": "api.dicebear.com",
-          "port": "",
-          "pathname": "/**"
-        }
-      ],
-      "unoptimized": false
+      "remotePatterns": [],
+      "unoptimized": true
     },
     "devIndicators": {
       "position": "bottom-left"
@@ -113,6 +88,7 @@
     "logging": {},
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
+    "output": "export",
     "modularizeImports": {
       "@mui/icons-material": {
         "transform": "@mui/icons-material/{{member}}"
